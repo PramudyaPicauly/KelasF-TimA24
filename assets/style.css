@@ -161,6 +161,7 @@ header {
 .contact-form {
 	padding-top: 100px;
 	padding-left: 100px;
+	padding-right: 100px;
 	text-align: center;
 }
 .contact-form h2 {
@@ -185,7 +186,7 @@ header {
 }
 
 input {
-	width: 500px;
+	width: 60%;
 	height: 5px;
 	margin-top: 10px;
 	margin-bottom: 30px;
@@ -195,7 +196,7 @@ input {
 }
 
 textarea {
-	width: 500px;
+	width: 60%;
 	margin-top: 10px;
 	margin-bottom: 30px;
 	padding: 20px;
@@ -204,8 +205,10 @@ textarea {
 }
 /* Untuk button kirim */
 .contact-submit {
-	width: 500px;
-	height: 45px;
+	/* width: 500px;
+	height:45px; */
+
+	height: 100%;
 	padding: 15px 40px;
 	background-color: #092992;
 	cursor: pointer;
